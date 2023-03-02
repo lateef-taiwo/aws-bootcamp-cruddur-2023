@@ -29,8 +29,6 @@ Prior to Containerizing the backend, I ran the application to cofirm it works.
 
   `vim Dockerfile`
 
-![D0ckerfile](./assets/Week-1/Dockerfile-backend2.png)
-
  * Paste this code in the Dockerfile. 
     
         FROM python:3.10-slim-buster
