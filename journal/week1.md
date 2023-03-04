@@ -569,7 +569,7 @@ Dynamodb Local emulates a Dynamodb database in your local envirmoment for rapid 
  docker run -d --name backendflask backendflask
 
 ### Push and tag an image to docker hub
-* I opted to use my local machine for this part of the homowork challenge but before pushing an image to docker hub,docker must be installed on the system. Although, I had some challenges installing docker on my local system, so I created an Ubuntu virtual machine using oracle virtual box. Then I installed docker on it.
+* I opted to use my local machine for this part of the homowork challenge but before pushing an image to docker hub, docker must be installed on the system. Although, I had some challenges installing docker on my local system (kali linux), so I created an Ubuntu virtual machine using oracle virtual box. Then I installed docker on it.
 
 * I logged into my docker hub account at [hub.docker.com](https://hub.docker.com/). Then I created a repository for a python backend container tagged voting-app.
 
